@@ -27,8 +27,8 @@ services:
         build:
             context: ./db
         volumes:
-            - note-to-self:/var/lib/postgresql/data
+            - note_to_self:/var/lib/postgresql/data
         ports:
             - '5433:5432'
 volumes:
-    note-to-self:
+    note_to_self:
